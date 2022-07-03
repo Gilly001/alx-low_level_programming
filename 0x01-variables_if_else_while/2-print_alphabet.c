@@ -21,5 +21,4 @@ void print_alphabet_x10(void)
 		m++;
 		_putchar('\n');
 	}
-	return(0);
 }
