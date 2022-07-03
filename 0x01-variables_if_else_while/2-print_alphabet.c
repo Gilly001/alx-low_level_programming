@@ -2,24 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
- * Description: prints  if a number is positive or negative.
- * Return: 0
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
+ *
+ * Return: x10 a-z
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int n, m;
 
 	m = 0;
-	
+
 	while (m < 10)
 	{
-	    for (n = 'a'; n <= 'z'; n++)
-	    {
-	        _putchar(n);
-	    }
-	    m++;
-	    _putchar('\n');
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		m++;
+		_putchar('\n');
 	}
-	return (0);
+	return(0);
 }
