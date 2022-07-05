@@ -6,6 +6,12 @@
  * in lowecase followed by a new line
  * Return: void
  */
+ int main ()
+ {
+     print_alphabet();
+     putchar('\n');
+     
+ }
 void print_alphabet(void)
 {
 	int i;
@@ -14,5 +20,5 @@ void print_alphabet(void)
 	{
 		putchar(i);
 	}
-	putchar('\n');
+	return (0);
 }
