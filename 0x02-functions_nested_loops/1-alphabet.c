@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
  * print_alphabet - Entry point
@@ -6,19 +6,14 @@
  * in lowecase followed by a new line
  * Return: void
  */
- int main ()
- {
-     print_alphabet();
-     putchar('\n');
-     
- }
 void print_alphabet(void)
 {
-	int i;
+	char letter = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (letter <= 'z')
 	{
-		putchar(i);
+		putchar(letter);
+		letter++;
 	}
-	return (0);
+	putchar('\n');
 }
