@@ -8,12 +8,15 @@
  */
 void print_alphabet(void)
 {
-	char letter = 'a';
-
-	while (letter <= 'z')
-	{
-		putchar(letter);
-		letter++;
-	}
-	putchar('\n');
+    int i;
+    
+    for (i = 'a'; i <= 'z'; i++)
+    {
+        putchar(i);
+    }
 }
+ int main ()
+ {
+    print_alphabet();
+    putchar('\n');
+ }
