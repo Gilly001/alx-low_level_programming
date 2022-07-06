@@ -2,7 +2,7 @@
 
 /**
  * _abs - Entry point
- * Description: prints the absolute value of an integer
+ * Description: prints the absolute value
  * Return: int
  */
 
