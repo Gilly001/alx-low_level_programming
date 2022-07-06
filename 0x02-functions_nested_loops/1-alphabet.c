@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
  * print_alphabet - Entry point
@@ -8,11 +8,16 @@
  */
 void print_alphabet(void)
 {
-	int i;
+    int i;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
+    for (i = 'a'; i <= 'z'; i++)
+    {
+        putchar(i);
+    }
+}
+
+int main()
+{
+    print_alphabet();
+    putchar('\n');
 }
