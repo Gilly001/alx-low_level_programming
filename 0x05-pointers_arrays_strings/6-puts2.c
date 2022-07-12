@@ -1,31 +1,19 @@
 #include "main.h"
 #include <string.h>
 
-void puts2(char *str) {
-    char j[100];
-    int i;
-    str = &j;
-    
-    
-    for (i = 0; i < strlen(j); i++)
-    {
-        printf("%c", *str++);
-    }
-    putchar('\n');
-    return 0;
-}#include "main.h"
-#include <string.h>
+/**
+ * puts2 - prints characters of a string
+ * @str: the used string reference
+ * Return: 0
+ */
 
-void puts2(char *str) {
-    char j[100];
-    int i;
-    str = &j;
-    
-    
-    for (i = 0; i < strlen(j); i++)
-    {
-        printf("%c", *str++);
-    }
-    putchar('\n');
-    return 0;
+void puts2(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
