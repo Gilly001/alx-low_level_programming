@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strncat - appends src to the dest string
  * @dest: string to append by src
@@ -16,7 +18,7 @@ char *_strncat(char *dest, char *src)
 	{
 		*(dest + i) = *(src + j);
 		i++;
-		j++;
+		j++
 	}
 	return (dest);
 }
